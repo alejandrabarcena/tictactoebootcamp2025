@@ -1,0 +1,60 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.square:hover:not(.filled) {
+  background-color: #f3f4f6;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.square:active {
+  transform: scale(0.95);
+}
+
+.square.filled {
+  cursor: not-allowed;
+}
+
+.square.x-player {
+  color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.square.o-player {
+  color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.square.filled:hover {
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .square {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+    border-radius: 6px;
+  }
+}

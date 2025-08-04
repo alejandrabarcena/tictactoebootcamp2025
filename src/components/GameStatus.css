@@ -1,0 +1,60 @@
+.game-status {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.game-status p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.status-playing {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border: 2px solid #3b82f6;
+}
+
+.status-won {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 2px solid #10b981;
+  animation: celebrate 0.6s ease-in-out;
+}
+
+.status-draw {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 2px solid #f59e0b;
+}
+
+@keyframes celebrate {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@media (max-width: 768px) {
+  .game-status {
+    margin: 0.8rem 0;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .game-status p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-status {
+    margin: 0.5rem 0;
+    padding: 0.6rem 1rem;
+  }
+  
+  .game-status p {
+    font-size: 1.1rem;
+  }
+}
