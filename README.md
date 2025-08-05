@@ -10,7 +10,7 @@ El código está estructurado conforme a las buenas prácticas, aunque **esta ve
 
 # 🔗 Demo en vivo
 
-👉 [Jugar ahora](https://frolicking-tanuki-cd6c29.netlify.app/
+👉 [Jugar ahora]https://tictactoebootcamp2025-lfodq6yiq.vercel.app/
 
 
 ## 🧠 Tecnologías Usadas
