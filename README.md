@@ -1,46 +1,57 @@
+# 🎮 Tic Tac Toe - Bootcamp 2025
 
-# 🟦 TicTacToe React
-🎮 Juego interactivo de Tic Tac Toe (Gato) desarrollado con **React + Vite + Tailwind CSS**, utilizando **JavaScript puro**.  
-Permite jugar turnos alternados entre dos jugadores, reiniciar la partida y visualizar mensajes dinámicos.  
-El código está estructurado conforme a las buenas prácticas, aunque **esta versión no fue desplegada por motivos técnicos de entorno.**
+Este es un juego clásico de Tic Tac Toe (Tres en línea) desarrollado con **React.js** como parte del proyecto del bootcamp Full Stack 💻✨
 
-# Tic Tac Toe - Bootcamp 2
+## 🔗 Demo en línea
 
-![Vista previa del juego](https://github.com/alejandrabarcena/tictactoebootcamp2/blob/main/vistapreviatictactoe.png?raw=true)
+👉 [¡Juega aquí!](https://tictactoebootcamp2025-lfodq6yiq.vercel.app/)
 
-# 🔗 Demo en vivo
+## 📸 Vista previa
 
-👉 [Jugar ahora]https://tictactoebootcamp2025-lfodq6yiq.vercel.app/
+![Vista previa del juego](https://github.com/alejandrabarcena/tictactoebootcamp2025/blob/main/previavista.png)
 
+## 🚀 Tecnologías usadas
 
-## 🧠 Tecnologías Usadas
+- ⚛️ React 18
+- 💅 CSS personalizado
+- 📦 Vite
+- 🧠 `useState` para manejo de turnos y tablero
+- ✅ Validación de ganadores y empates
+- 🔁 Reinicio del juego
 
-- ⚛️ **React 18** — Renderizado declarativo de componentes.
-- 🟨 **JavaScript** — Lógica funcional sin tipado.
-- ⚡ **Vite** — Entorno de desarrollo rápido y moderno.
-- 🎨 **Tailwind CSS** — Estilos utilitarios responsivos y personalizables.
-- 🔁 **useState** — Control de turnos y estado del juego.
+## 🎯 Funcionalidades
 
----
-## 📂 Estructura de carpetas
+- Tablero de 3x3 interactivo
+- Turnos alternados entre X y O
+- Detección automática del ganador o empate
+- Botón para reiniciar el juego
+- Estilo visual tipo arcade 🎮
 
-```bash
-📁 tictactoe-react-js/
+## 📂 Estructura del proyecto
+
+📦 tictactoebootcamp2025
 ├── public/
+│ └── previavista.png
 ├── src/
-│   ├── components/
-│   └── App.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
 ├── index.html
 ├── package.json
-├── tailwind.config.js
 └── vite.config.js
 
 
-📝 Instrucciones de uso local
-bash
-Copiar
-Editar
-git clone https://github.com/alejandrabarcena/tictactoebootcamp2025
-cd tictactoebootcamp2
+## 🛠️ Cómo ejecutar localmente
+
+```bash
+git clone https://github.com/alejandrabarcena/tictactoebootcamp2025.git
+cd tictactoebootcamp2025
 npm install
 npm run dev
+
+✨ Autora
+
+Alejandra Bárcena
+💖 Con amor desde Patsy World
+🐾 @PatsyThePug
